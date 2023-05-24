@@ -6,20 +6,30 @@ To achieve this, several models like Logistic Regression, Random Forest, KNN, an
 ## Code Flow:
 
 -Vader Sentiment Analysis on Rate My Professor, IMDB, and Amazon reviews.
+
 -Logistic Regression model trained and tested on IMDB and Amazon sentiments, with accuracy and F1-score obtained.
+
 -The trained Logistic Regression model used to predict sentiments on Rate My Professor reviews.
+
 -Random Forest model trained and tested on IMDB and Amazon sentiments, with accuracy and F1-score obtained.
+
 -The trained Random Forest model used to predict sentiments on Rate My Professor reviews.
+
 -KNN model trained and tested on IMDB and Amazon sentiments, with accuracy and F1-score obtained.
+
 -The trained KNN model used to predict sentiments on Rate My Professor reviews.
+
 -RNN model trained and tested on IMDB and Amazon sentiments, with accuracy and F1-score obtained.
+
 -The trained RNN model used to predict sentiments on Rate My Professor reviews.
 
 
 ## Instructions to Run the Code:
 
 1.Use Google Colab.
+
 2.Upload all the required data files, including RateMyProfessor_Sample data, IMDB Dataset.csv, and amazon_cells_labelled.txt.
+
 3.Run the code line by line.
 
 preProcessing(text): This function takes the dataframe column comments as input and generates processed text as output. For example, the input is data['comments'], and the output is a string.
